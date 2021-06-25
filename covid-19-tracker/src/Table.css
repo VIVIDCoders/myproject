@@ -1,0 +1,28 @@
+.table{
+    margin-top: 15px;
+    overflow:scroll;
+    height: 79vh;
+    color: #6a5d5d;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+
+.table:hover{
+    overflow-y: visible;
+
+}
+
+.table tr{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+
+}
+.table td{
+    padding: 0.5rem;
+ 
+}
+.table tr:nth-of-type(even){
+    background-color: #e0e0f7;
+}
